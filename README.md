@@ -6,19 +6,17 @@ This repository contains coursework from several areas of computer science, incl
 
 ## Courses
 
-| Course    | Title                                       | Topics                                                                                                  |
-| --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------
-- |
-| **CP104** | Intro to Programming                        | Basic coding concepts - variables, functions, loops, arrays, string manipulation, input, formatting   
-  |
-| **CP164** | Data Structures I                           | Data structures, recursion, searching, sorting, stacks, queues, heaps, and algorithm analysis           |
-| **CP212** | Windows Application Programming             | Visual Basic for Applications (VBA), automation, event-driven programming, and user interfaces          |
-| **CP213** | Introduction to Object-Oriented Programming | Java, object-oriented programming, inheritance, polymorphism, event-driven programming, and concurrency |
-| **CP216** | Introduction to Microprocessors             | Microprocessor architecture, assembly language, memory, and low-level programming                       |
-| **CP264** | Data Structures II                          | C, linked lists, trees, hashing, graphs, and algorithm analysis                                         |
-| **CP321** | Data Visualization                          | Data analysis, visualization techniques, and communicating information through data                     |
-| **CP363** | Database I                                  | Relational databases, SQL, database design, normalization, and data modelling                           |
-| **CP372** | Computer Networks                           | Network architecture, TCP/IP, routing, network protocols, and socket programming                        |
+| Course    | Title                                       | Topics                                                                                                    |
+| --------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **CP104** | Introduction to Programming                 | Programming fundamentals, variables, functions, loops, arrays, strings, input/output, and problem solving |
+| **CP164** | Data Structures I                           | Data structures, recursion, searching, sorting, stacks, queues, heaps, and algorithm analysis             |
+| **CP212** | Windows Application Programming             | Visual Basic for Applications (VBA), automation, event-driven programming, and user interfaces            |
+| **CP213** | Introduction to Object-Oriented Programming | Java, object-oriented programming, inheritance, polymorphism, event-driven programming, and concurrency   |
+| **CP216** | Introduction to Microprocessors             | Microprocessor architecture, assembly language, memory, and low-level programming                         |
+| **CP264** | Data Structures II                          | C, linked lists, trees, hashing, graphs, and algorithm analysis                                           |
+| **CP321** | Data Visualization                          | Data analysis, visualization techniques, and communicating information through data                       |
+| **CP363** | Database I                                  | Relational databases, SQL, database design, normalization, and data modelling                             |
+| **CP372** | Computer Networks                           | Network architecture, TCP/IP, routing, network protocols, and socket programming                          |
 
 
 ## About This Repository
