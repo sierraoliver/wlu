@@ -1,0 +1,128 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2023-11-03"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter the winning team: purple
+Enter the winning team: gold
+Enter the winning team: gold
+Enter the winning team: teal
+Enter the winning team: orange
+Enter the winning team: 
+(1,2)
+
+
+Enter the winning team: purple
+Enter the winning team: purple
+Enter the winning team: yellow
+Enter the winning team: purple
+Enter the winning team: gold
+Enter the winning team: gold
+Enter the winning team: orange
+Enter the winning team: 
+(3,2)
+
+
+Enter the winning team: gold
+Enter the winning team: blue
+Enter the winning team: 
+(0,1)
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter a number: 131
+True
+
+
+Enter a number: 4
+False
+
+
+Enter a number: 79
+True
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter principal amount: 750
+Enter interest rate (%): 8.5
+Enter monthly payment: 200
+Principal: $750.00
+Interest Rate: 8.50%
+Monthly Payment: $200.00
+--------------------------------
+Month Interest  Payment  Balance
+--------------------------------
+    1     5.31   200.00   555.31
+    2     3.93   200.00   359.25
+    3     2.54   200.00   161.79
+    4     1.15   162.94     0.00
+
+
+Enter principal amount: 1000
+Enter interest rate (%): 1
+Enter monthly payment: 100
+Principal: $1000.00
+Interest Rate: 1.00%
+Monthly Payment: $100.00
+--------------------------------
+Month Interest  Payment  Balance
+--------------------------------
+    1     0.83   100.00   900.83
+    2     0.75   100.00   801.58
+    3     0.67   100.00   702.25
+    4     0.59   100.00   602.84
+    5     0.50   100.00   503.34
+    6     0.42   100.00   403.76
+    7     0.34   100.00   304.10
+    8     0.25   100.00   204.35
+    9     0.17   100.00   104.52
+   10     0.09   100.00     4.61
+   11     0.00     4.61     0.00
+
+
+Enter principal amount: 500
+Enter interest rate (%): 5
+Enter monthly payment: 300
+Principal: $500.00
+Interest Rate: 5.00%
+Monthly Payment: $300.00
+--------------------------------
+Month Interest  Payment  Balance
+--------------------------------
+    1     2.08   300.00   202.08
+    2     0.84   202.93     0.00
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter a number: -1024
+Number of Digits: 4
+
+
+Enter a number: 908767
+Number of Digits: 6
+
+
+Enter a number: 1
+Number of Digits: 1
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Enter a number: 9
+Total: 4
+
+
+Enter a number: 2
+Total: 1
+
+
+Enter a number: 14
+Total: 10
+-------------------------------------------------------

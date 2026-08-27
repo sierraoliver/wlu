@@ -1,0 +1,130 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2023-11-03"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter a number: 5
+120
+
+
+Enter a number: 7
+5040
+
+
+Enter a number: 4
+24
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter the number of calories burned per min: 4.1
+Enter total minutes: 20
+  5     20.5
+ 10     41.0
+ 15     61.5
+ 20     82.0
+
+
+Enter the number of calories burned per min: 3.8
+Enter total minutes: 40
+  5     19.0
+ 10     38.0
+ 15     57.0
+ 20     76.0
+ 25     95.0
+ 30    114.0
+ 35    133.0
+ 40    152.0
+
+
+Enter the number of calories burned per min: 5.1
+Enter total minutes: 10
+  5     25.5
+ 10     51.0
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter number of rows: 4
+   #
+  # #
+ #   #
+#     #
+
+
+Enter number of rows: 7
+      #
+     # #
+    #   #
+   #     #
+  #       #
+ #         #
+#           #
+
+
+Enter number of rows: 3
+  #
+ # #
+#   #
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter starting number: 2
+Enter ending number: 4
+       2    3    4
+   ---------------
+ 2 |   4    6    8
+ 3 |   6    9   12
+ 4 |   8   12   16
+
+
+Enter starting number: 2
+Enter ending number: 8
+       2    3    4    5    6    7    8
+   -----------------------------------
+ 2 |   4    6    8   10   12   14   16
+ 3 |   6    9   12   15   18   21   24
+ 4 |   8   12   16   20   24   28   32
+ 5 |  10   15   20   25   30   35   40
+ 6 |  12   18   24   30   36   42   48
+ 7 |  14   21   28   35   42   49   56
+ 8 |  16   24   32   40   48   56   64
+
+
+Enter starting number: 6
+Enter ending number: 9
+       6    7    8    9
+   --------------------
+ 6 |  36   42   48   54
+ 7 |  42   49   56   63
+ 8 |  48   56   64   72
+ 9 |  54   63   72   81
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Enter starting number: 2
+Enter increment number: 2
+Enter number of values: 5
+
+Total: 30
+
+
+Enter starting number: 1
+Enter increment number: 2
+Enter number of values: 20
+
+Total: 400
+
+
+Enter starting number: 2
+Enter increment number: 8
+Enter number of values: 11
+
+Total: 462
+-------------------------------------------------------

@@ -1,0 +1,331 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2024-02-107"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+(testing insert, peek, remove and is_empty)
+Values: [11, 22, 33, 44]
+Empty: False
+Peek: 11
+Removed: 11
+Peek: 22
+Removed: 22
+Peek: 33
+Removed: 33
+Peek: 44
+Removed: 44
+Empty: True
+
+Values: []
+Empty: True
+Empty: True
+
+Values: [11]
+Empty: False
+Peek: 11
+Removed: 11
+Empty: True
+
+(testing eq and split_alt)
+Source1: [1, 2, 3]
+Source2: [1, 2, 3]
+Equals: True
+Split Alt with source2
+Target1
+1
+3
+Target2
+2
+
+Source1: [1, 3, 2, 4, 5]
+Source2: [1]
+Equals: False
+Split Alt with source2
+Target1
+1
+Target2
+
+Source1: [1, 3, 2, 4, 6]
+Source2: [1, 3, 2, 4, 5]
+Equals: False
+Split Alt with source2
+Target1
+1
+2
+5
+Target2
+3
+4
+
+(testing combine)
+Source1: [1, 3, 5]
+Source2: [2, 4, 6]
+Combine: Source1 & Source2
+1
+2
+3
+4
+5
+6
+
+Source1: [1]
+Source2: [2, 4, 6]
+Combine: Source1 & Source2
+1
+2
+4
+6
+
+Source1: []
+Source2: []
+Combine: Source1 & Source2
+
+
+(testing append_queue)
+Source1: []
+Source2: [11, 22, 33, 44]
+Source1_append_queue(Source2)
+11
+22
+33
+44
+
+Source1: [11, 22, 33, 44]
+Source2: [11, 22, 33, 44, 55]
+Source1_append_queue(Source2)
+11
+22
+33
+44
+11
+22
+33
+44
+55
+
+(testing move_front_to_rear)
+Source1: [11, 22, 33, 44]
+Source2: [11, 22, 33, 44, 55]
+Source1_move_front_to_rear(Source2)
+11
+22
+33
+44
+11
+
+Source1: [11, 22, 33, 44]
+Source2: [99]
+Source1_move_front_to_rear(Source2)
+11
+22
+33
+44
+99
+
+Source1: []
+Source2: [11]
+Source1_move_front_to_rear(Source2)
+11
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+(testing insert, remove, peek, is_empty)
+Values: [11, 22, 33, 44, 55]
+Empty: False
+Peek: 11
+Removed: 11
+Peek: 22
+Removed: 22
+Peek: 33
+Removed: 33
+Peek: 44
+Removed: 44
+Peek: 55
+Removed: 55
+Empty: True
+
+Values: [11]
+Empty: False
+Peek: 11
+Removed: 11
+Empty: True
+
+Values: []
+Empty: True
+Empty: True
+
+(testing combine)
+Source1: [1, 3, 5]
+Source2: [2, 4, 6]
+Combine: Source1 & Source2
+1
+2
+3
+4
+5
+6
+
+Source1: [1, 2, 3]
+Source2: [4]
+Combine: Source1 & Source2
+1
+4
+2
+3
+
+Source1: []
+Source2: []
+Combine: Source1 & Source2
+
+(testing split_alt)
+Source: [1, 2, 3]
+Split Alt with source
+Target1
+1
+3
+Target2
+2
+
+Source: [1, 2, 3, 4, 5, 6]
+Split Alt with source
+Target1
+1
+3
+5
+Target2
+2
+4
+6
+
+Source: []
+Split Alt with source
+Target1
+Target2
+
+(testing split_key)
+Source: [11, 22, 33, 44, 55]
+Split source with 30
+Target1
+11
+22
+Target2
+33
+44
+55
+
+Source: [11, 22, 33, 44, 55]
+Split source with 1
+Target1
+Target2
+11
+22
+33
+44
+55
+
+Source: [11, 22, 33, 44, 55]
+Split source with 90
+Target1
+11
+22
+33
+44
+55
+Target2
+
+(testing append_queue)
+Source1: [11, 22, 33, 44, 55]
+Source2: [66]
+Source1_append_queue(Source2)
+11
+22
+33
+44
+55
+66
+
+(testing move_front_to_rear)
+Source1: [11, 22, 33, 44]
+Source2: [11, 22, 33, 44, 55]
+Source1_move_front_to_rear(Source2)
+11
+22
+33
+44
+11
+
+Source1: []
+Source2: [11, 22, 33, 44, 55]
+Source1_move_front_to_rear(Source2)
+11
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+(testing insert, remove, peek, is_empty)
+Empty: False
+Values: [0, 1, 2, 3]
+insert_rear, peek_rear, remove_rear
+Peek: 3
+Removed: 3
+Peek: 2
+Removed: 2
+Peek: 1
+Removed: 1
+Peek: 0
+Removed: 0
+Empty: True
+Values: [11, 22, 33, 44]
+insert_front, peek_front, remove_fornt
+Peek: 44
+Removed: 44
+Peek: 33
+Removed: 33
+Peek: 22
+Removed: 22
+Peek: 11
+Removed: 11
+
+(testing eq)
+Source1: [0, 1, 2, 3]
+Source2: [0, 1, 2, 3]
+Equals: True
+
+Source1: [11]
+Source2: [11, 33]
+Equals: False
+
+Source1: []
+Source2: []
+Equals: True
+
+
+(testing swap)
+Values: [0, 1, 2, 3]
+Swap (1,2)
+0
+2
+1
+3
+
+Values: [0, 1, 2, 3]
+Swap (2,1)
+0
+2
+1
+3
+
+Values: [0, 1, 2, 3]
+Swap (1,1)
+0
+1
+2
+3
+-------------------------------------------------------

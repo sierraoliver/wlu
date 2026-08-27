@@ -1,0 +1,91 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+Version: 2023-10-21
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter the square footage: 100000
+The square footage in acres is 2.295684113865932
+
+
+Enter the square footage: 999
+The square footage in acres is 0.022933884297520662
+
+
+Enter the square footage: 34580000
+The square footage in acres is 793.8475665748393
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter the width of lawn (m): 20
+Enter the length of lawn (m): 50
+Square meters cut per minute: 4
+Time required to mow the lawn is 250.0
+
+
+Enter the width of lawn (m): 5
+Enter the length of lawn (m): 5
+Square meters cut per minute: 2
+Time required to mow the lawn is 12.5
+
+
+Enter the width of lawn (m): 2000
+Enter the length of lawn (m): 1000
+Square meters cut per minute: 6
+Time required to mow the lawn is 333333.3
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter the date (YYYYMMDD): 19621025
+Reformatted date: 1962/10/25
+
+
+Enter the date (YYYYMMDD): 18000304
+Reformatted date: 1800/03/04
+
+
+Enter the date (YYYYMMDD): 13451005
+Reformatted date: 1345/10/05
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter numerator 1: 1
+Enter denominator 1: 2
+Enter numerator 2: 3
+Enter denominator 2: 4
+Numerator: 3, Denominator: 8, Product: 0.375
+
+
+Enter numerator 1: 2
+Enter denominator 1: 2
+Enter numerator 2: 3
+Enter denominator 2: 3
+Numerator: 6, Denominator: 6, Product: 1.0
+
+
+Enter numerator 1: 33
+Enter denominator 1: 271
+Enter numerator 2: 44
+Enter denominator 2: 12
+Numerator: 1452, Denominator: 3252, Product: 0.44649446494464945
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Enter the time the object has been falling: 15
+Distance the object has fallen is 1102.5
+
+
+Enter the time the object has been falling: 373
+Distance the object has fallen is 681732.1000000001
+
+
+Enter the time the object has been falling: 86
+Distance the object has fallen is 36240.4
+-------------------------------------------------------

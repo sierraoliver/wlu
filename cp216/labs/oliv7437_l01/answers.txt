@@ -1,0 +1,42 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID: 169067437
+Email: oliv7437@mylaurier.ca 
+Date:  2025-01-13  
+-------------------------------------------------------
+Answers for Lab 1
+-------------------------------------------------------
+
+--------------------------------------------------------
+Task 1
+- no the behaviour of the program does not change in any way
+- the values in the registers remain the same
+- before change -> r0 has 9 stored, r1 has 14 stored and r2 has 23
+- after change -> the values remain the same
+
+--------------------------------------------------------
+Task 2
+- this action is legal
+- can add the value of a register to itself with a single add instruction
+
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asmNCtEIe.s.o work/asmNCtEIe.s
+Link: arm-eabi-ld  --script build_arm.ld -e _start -u _start -o work/asmNCtEIe.s.elf work/asmNCtEIe.s.o
+Compile succeeded.
+
+--------------------------------------------------------
+Task 3
+- adding the two immediate values into the register is not legal
+
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asm83QzFf.s.o work/asm83QzFf.s
+work/asm83QzFf.s: Assembler messages:
+work/asm83QzFf.s:12: Error: bad expression -- `add r4,#4,#5'
+Compile failed.
+
+- yes, by replacing the middle operand with a register it works
+
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asmiW2K5p.s.o work/asmiW2K5p.s
+Link: arm-eabi-ld  --script build_arm.ld -e _start -u _start -o work/asmiW2K5p.s.elf work/asmiW2K5p.s.o
+Compile succeeded.
+--------------------------------------------------------

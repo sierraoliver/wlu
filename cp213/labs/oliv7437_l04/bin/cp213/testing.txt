@@ -1,0 +1,31 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author: Sierra Oliver 
+ID: 169067437
+Email: oliv7437@mylaurier.ca
+Version: 
+-------------
+"""
+Task 1
+First:1 Second:1
+First:3 Second:3
+First:5 Second:5
+First:7 Second:7
+First:9 Second:9
+true
+Task 2
+First:2 Second:2
+First:6 Second:6
+First:10 Second:10
+First:14 Second:14
+First:18 Second:18
+true
+Task 3
+false
+Task 4
+true
+Task 5
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

@@ -1,0 +1,94 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+Version: 2023-10-28
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter number of the day of the week: 1
+Day of the Week: Sunday
+
+
+Enter number of the day of the week: 2
+Day of the Week: Monday
+
+
+Enter number of the day of the week: 3
+Day of the Week: Tuesday
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter the AQI: 0
+The pollution level is: Good
+
+
+Enter the AQI: 256
+The pollution level is: Very Unhealthy
+
+
+Enter the AQI: -9
+The pollution level is: Error
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter a number: -8
+Enter another number: 12
+Enter another number: 20
+The average of the 2 largest numbers is: 16.0
+
+
+Enter a number: 40
+Enter another number: 28
+Enter another number: 97
+The average of the 2 largest numbers is: 68.5
+
+
+Enter a number: 40
+Enter another number: -3
+Enter another number: -78
+The average of the 2 largest numbers is: 18.5
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter first primary colour: green
+Enter second primary colour: red
+Those 2 colours combined create: yellow
+
+
+Enter first primary colour: blue
+Enter second primary colour: red
+Those 2 colours combined create: fuchsia
+
+
+Enter first primary colour: aqua
+Enter second primary colour: yellow
+Those 2 colours combined create: Error
+
+
+Enter first primary colour: blue
+Enter second primary colour: blue
+Those 2 colours combined create: blue
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Enter a number: 14
+Hoo Rah
+
+
+Enter a number: -43
+Zip
+
+
+Enter a number: 2
+Hoo
+
+
+Enter a number: 49
+Rah
+-------------------------------------------------------

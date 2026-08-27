@@ -1,0 +1,1 @@
+SELECT * FROM broad WHERE broadDesc LIKE '%Military%' ORDER BY broadDesc

@@ -1,0 +1,242 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+Version: 2023-10-27
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter a number: 123
+The sum of all odd numbers from 1 to 123 is 3844
+
+
+Enter a number: 7
+The sum of all odd numbers from 1 to 7 is 16
+
+
+Enter a number: 89
+The sum of all odd numbers from 1 to 89 is 2025
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Enter the number of characters: 6
+Enter a character to draw with: $
+     $
+    $$$
+   $$$$$
+  $$$$$$$
+ $$$$$$$$$
+$$$$$$$$$$$
+
+
+Enter the number of characters: 3
+Enter a character to draw with: *
+  *
+ ***
+*****
+
+
+Enter the number of characters: 10
+Enter a character to draw with: #
+         #
+        ###
+       #####
+      #######
+     #########
+    ###########
+   #############
+  ###############
+ #################
+###################
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+
+-------------------------------------------------------
+t08
+-------------------------------------------------------
+
+-------------------------------------------------------
+t09
+-------------------------------------------------------
+Enter the number of verses: 3
+3 bottles of beer on the wall, 3 bottles of beer.
+Take one down, pass it around, 2 bottles of beer on the wall
+--
+2 bottles of beer on the wall, 2 bottles of beer.
+Take one down, pass it around, 1 bottle of beer on the wall
+--
+1 bottle of beer on the wall, 1 bottle of beer.
+Take one down, pass it around, no more bottles of beer on the wall
+
+
+Enter the number of verses: 10
+10 bottles of beer on the wall, 10 bottles of beer.
+Take one down, pass it around, 9 bottles of beer on the wall
+--
+9 bottles of beer on the wall, 9 bottles of beer.
+Take one down, pass it around, 8 bottles of beer on the wall
+--
+8 bottles of beer on the wall, 8 bottles of beer.
+Take one down, pass it around, 7 bottles of beer on the wall
+--
+7 bottles of beer on the wall, 7 bottles of beer.
+Take one down, pass it around, 6 bottles of beer on the wall
+--
+6 bottles of beer on the wall, 6 bottles of beer.
+Take one down, pass it around, 5 bottles of beer on the wall
+--
+5 bottles of beer on the wall, 5 bottles of beer.
+Take one down, pass it around, 4 bottles of beer on the wall
+--
+4 bottles of beer on the wall, 4 bottles of beer.
+Take one down, pass it around, 3 bottles of beer on the wall
+--
+3 bottles of beer on the wall, 3 bottles of beer.
+Take one down, pass it around, 2 bottles of beer on the wall
+--
+2 bottles of beer on the wall, 2 bottles of beer.
+Take one down, pass it around, 1 bottle of beer on the wall
+--
+1 bottle of beer on the wall, 1 bottle of beer.
+Take one down, pass it around, no more bottles of beer on the wall
+-------------------------------------------------------
+t10
+-------------------------------------------------------
+
+-------------------------------------------------------
+t11
+-------------------------------------------------------
+Enter your age: 25
+Enter your salary: 56000
+Enter increase in salary per year: 1.5
+Age         Salary
+------------------
+25       56,000.00
+26       56,840.00
+27       57,692.60
+28       58,557.99
+29       59,436.36
+30       60,327.90
+31       61,232.82
+32       62,151.32
+33       63,083.58
+34       64,029.84
+35       64,990.29
+36       65,965.14
+37       66,954.62
+38       67,958.94
+39       68,978.32
+40       70,013.00
+41       71,063.19
+42       72,129.14
+43       73,211.08
+44       74,309.24
+45       75,423.88
+46       76,555.24
+47       77,703.57
+48       78,869.12
+49       80,052.16
+50       81,252.94
+51       82,471.73
+52       83,708.81
+53       84,964.44
+54       86,238.91
+55       87,532.49
+56       88,845.48
+57       90,178.16
+58       91,530.83
+59       92,903.80
+60       94,297.35
+61       95,711.81
+62       97,147.49
+63       98,604.70
+64      100,083.77
+65      101,585.03
+
+
+Enter your age: 60
+Enter your salary: 78000
+Enter increase in salary per year: 2
+Age         Salary
+------------------
+60       78,000.00
+61       79,560.00
+62       81,151.20
+63       82,774.22
+64       84,429.71
+65       86,118.30
+-------------------------------------------------------
+t12
+-------------------------------------------------------
+
+-------------------------------------------------------
+t13
+-------------------------------------------------------
+
+-------------------------------------------------------
+t14
+-------------------------------------------------------
+
+-------------------------------------------------------
+t15
+-------------------------------------------------------
+Enter number of values: 5
+First value: 2
+Next value: -3.4
+Next value: 4
+Next value: 5.3
+Next value: 1
+
+Minimum value: -3.40
+Maximum value: 5.30
+Total: 8.90
+Average: 1.78
+
+
+Enter number of values: 3
+First value: 1
+Next value: 2
+Next value: 3
+
+Minimum value: 1.00
+Maximum value: 3.00
+Total: 6.00
+Average: 2.00
+
+
+Enter number of values: 7
+First value: 10
+Next value: -90
+Next value: 77
+Next value: 2
+Next value: -3
+Next value: 0
+Next value: 54
+
+Minimum value: -90.00
+Maximum value: 77.00
+Total: 50.00
+Average: 7.14
+-------------------------------------------------------

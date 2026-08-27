@@ -1,0 +1,1522 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2024-02-10"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+(testing with empty lists)
+Equals: False
+Appended:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Front Before:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Front After:
+[]
+Removing:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check source3:
+Union test of source3:
+Prepend:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Found:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing intersection on source3
+Testing split - length of source = 0
+Target1
+Target2
+Testing split_alt
+Target3
+Target4
+Testing combine
+Testing clean
+
+
+Equals: False
+Value at 0:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Appended:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Front Before:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Front After:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Removing:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check source3:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Union test of source3:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Prepend:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Found:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing intersection on source3
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing split - length of source = 6
+Target1
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Target2
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing split_alt
+Target3
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Target4
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing combine
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing clean
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+
+Equals: True
+Value at 0:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Appended:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Front Before:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Front After:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Removing:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check source3:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Union test of source3:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Prepend:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Found:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing intersection on source3
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing split - length of source = 7
+Target1
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Target2
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing split_alt
+Target3
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Target4
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Testing combine
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Testing clean
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+(testing with empty lists)
+Key Food: 
+None
+Equals: False
+Testing __contains__
+contains key: False
+Front Before:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Front After:
+[]
+Count of key: 0
+Min:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Max:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Peek:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Remove:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Removing:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check source3:
+Union test of source3:
+Testing intersection on source3
+Testing split - length of source = -1
+Target1
+Target2
+Testing split_alt
+Target3
+Target4
+Testing split_key
+Key:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Target5
+Target6
+Testing combine
+Testing clean
+
+
+Key Food: 
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Equals: True
+Value at 0:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Testing __contains__
+contains key: True
+Front Before:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Front After:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Count of key: 1
+Min:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Max:
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Peek:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Remove:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Removing:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check source3:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Union test of source3:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing intersection on source3
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing split - length of source = 5
+Target1
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Target2
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing split_alt
+Target3
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Target4
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing split_key
+Key:
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Target5
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Target6
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing combine
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing clean
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+
+Key Food: 
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Equals: False
+Value at 0:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Testing __contains__
+contains key: True
+Front Before:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Front After:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Count of key: 1
+Min:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Max:
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Peek:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Remove:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Removing:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check source3:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Union test of source3:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing intersection on source3
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing split - length of source = 6
+Target1
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Target2
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing split_alt
+Target3
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Target4
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Testing split_key
+Key:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Target5
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Target6
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing combine
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing clean
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+
+Key Food: 
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Equals: False
+Value at 0:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Testing __contains__
+contains key: True
+Front Before:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Front After:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Count of key: 1
+Min:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Max:
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Peek:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Remove:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Removing:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check source3:
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Union test of source3:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing intersection on source3
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing split - length of source = 6
+Target1
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Target2
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing split_alt
+Target3
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Target4
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Testing split_key
+Key:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Target5
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Target6
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing combine
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+
+Testing clean
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+-------------------------------------------------------

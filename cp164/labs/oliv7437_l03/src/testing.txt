@@ -1,0 +1,308 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2024-01-26"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Number: 33
+Peek: 33
+
+
+Number: 10203
+Peek: 10203
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+[1, 2, 3, 4]
+Peek: 1
+Removed: 1
+Peek: 2
+Removed: 2
+Peek: 3
+Removed: 3
+Peek: 4
+Removed: 4
+
+
+[50, 4]
+Peek: 50
+Removed: 50
+Peek: 4
+Removed: 4
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Queue to Array: [1, 2, 3, 4, 5]
+Array to Queue
+1
+2
+3
+4
+5
+Queue Test
+Source is not empty
+Pushed: 1
+Peek expects: 1
+Peek got: 1
+Pop expects: 1
+Pop got: 1
+
+Pop expects: 2
+Pop got: 2
+
+Pop expects: 3
+Pop got: 3
+
+Pop expects: 4
+Pop got: 4
+
+Pop expects: 5
+Pop got: 5
+
+Pop expects: 1
+Pop got: 1
+
+Empty expects: True
+Empty got: True
+
+
+Queue to Array: []
+Array to Queue
+Queue Test
+Source is empty
+Empty expects: True
+Empty got: True
+
+
+Queue to Array: [20, 11]
+Array to Queue
+20
+11
+Queue Test
+Source is not empty
+Pushed: 20
+Peek expects: 20
+Peek got: 20
+Pop expects: 20
+Pop got: 20
+
+Pop expects: 11
+Pop got: 11
+
+Pop expects: 20
+Pop got: 20
+
+Empty expects: True
+Empty got: True
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Number: 33
+Inserted: 33
+Peek: 33
+
+
+Number: 1000
+Inserted: 1000
+Peek: 1000
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Number: 33
+Inserted: 33
+Number: 30
+Inserted: 30
+Number: -10
+Inserted: -10
+Number: 10000
+Inserted: 10000
+Number: -1
+Removed: -10
+Removed: 30
+Removed: 33
+Removed: 10000
+
+
+Number: 1
+Inserted: 1
+Number: 2
+Inserted: 2
+Number: 3
+Inserted: 3
+Number: -1
+Removed: 1
+Removed: 2
+Removed: 3
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+(first 3 elements of foods)
+Array to PQ
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+PQ Test
+Source is not empty
+Pushed:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop expects:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Pop got:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop expects:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Pop got:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Empty expects: True
+Empty got: True
+
+PQ to Array
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+
+(first 2 elements of foods)
+Array to PQ
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+PQ Test
+Source is not empty
+Pushed:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop expects:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Pop got:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Pop got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Empty expects: True
+Empty got: True
+
+PQ to Array
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+-------------------------------------------------------

@@ -1,0 +1,362 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2024-03-09"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+(testing eq)
+Source1: [11, 11, 22, 22, 33, 33]
+Source2: [11, 11, 22, 22, 33, 33]
+Equals: True
+
+
+Source1: [11, 11, 22, 22, 33, 33]
+Source2: [11, 11, 22, 22]
+Equals: False
+
+
+Source1: [11, 11, 22, 22, 33, 33]
+Source2: [33, 33, 22, 22, 11, 11]
+Equals: False
+
+
+(testing clean)
+Values: [11, 11, 22, 22, 33, 33]
+--clean--
+11
+22
+33
+
+
+Values: [99, 99, 99]
+--clean--
+99
+
+
+(testing getitem)
+Values: [11, 22, 33, 44, 55]
+Value at 2: 33
+
+
+Values: [11, 22, 33, 44, 55]
+Value at -2: 44
+
+
+(testing combine)
+Combine
+Source1: [1, 3, 5, 7]
+Source2: [2, 4, 6]
+1
+2
+3
+4
+5
+6
+7
+
+
+Combine
+Source1: []
+Source2: [2, 4, 6]
+2
+4
+6
+
+
+Combine
+Source1: [1, 3, 4]
+Source2: []
+1
+3
+4
+
+
+(testing intersection)
+Intersection
+Source1: [1, 3, 5]
+Source2: [2, 4, 6]
+
+
+Intersection
+Source1: [22, 33, 44, 55]
+Source2: [11, 22, 33, 66]
+22
+33
+
+
+(testing prepend)
+Values: [11, 22, 33]
+Prepend: 44
+44
+11
+22
+33
+
+
+Values: []
+Prepend: 0
+0
+
+
+(testing remove front)
+Values: [11, 22, 33, 44, 55]
+--removefront--
+22
+33
+44
+55
+
+
+Values: [11]
+--removefront--
+
+
+(testing removemany)
+Values: [11, 11, 22, 33, 44, 55]
+--removemany 11--
+22
+33
+44
+55
+
+
+Values: [22, 33, 44, 55]
+--removemany 11--
+22
+33
+44
+55
+
+
+(testing split)
+Values: [11, 22, 33, 44]
+--split--
+Target1
+11
+22
+Target2
+33
+44
+
+
+Values: [5, 7, 6]
+--split--
+Target1
+5
+7
+Target2
+6
+
+
+(testing splitalt)
+Values: [1, 2, 3, 4]
+--splitalt--
+Target1
+1
+3
+Target2
+2
+4
+
+
+Values: [44, 55, 33]
+--splitalt--
+Target1
+44
+33
+Target2
+55
+
+
+(testing union)
+Union
+Source1: [22, 33, 44, 55]
+Source2: [11, 22, 33, 66]
+22
+33
+44
+55
+11
+66
+
+
+Union
+Source1: [1, 2, 3]
+Source2: [4, 5, 6]
+1
+2
+3
+4
+5
+6
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+(testing contains)
+Values: [11, 22, 33]
+Contains 11: True
+
+
+Values: [11, 22, 33]
+Contains 0: False
+
+
+(testing eq)
+Source1: [11, 22, 33]
+Source2: [11, 22, 33]
+Equals: True
+
+
+Source1: [11, 22, 33]
+Source2: [33, 22, 11]
+Equals: True
+
+
+Source1: [11, 22, 33]
+Source2: [4, 5]
+Equals: False
+
+
+(testing getitem)
+Values: [11, 22, 33]
+Value at -2: 22
+
+
+Values: [11, 22, 33]
+Value at 0: 11
+
+
+(testing clean)
+Values: [11, 11, 22, 22, 33, 33]
+--clean--
+11
+22
+33
+
+
+Values: [99, 99, 99, 99]
+--clean--
+99
+
+
+(testing count)
+Values: [11, 22, 11, 33]
+Count of 11: 2
+
+
+Values: [0, 1, 2, 3]
+Count of 5: 0
+
+
+(testing find)
+Values: [0, 1, 2, 3]
+Find 11: None
+
+
+Values: [0, 1, 2, 3, 11]
+Find 11: 11
+
+
+(testing index)
+Values: [0, 1, 2, 3, 11]
+Index of 11: 4
+
+
+Values: []
+Index of 11: -1
+
+
+(testing intersection)
+Intersection
+Source1: [1, 2, 3]
+Source2: [4, 5, 6]
+
+
+Intersection
+Source1: [77, 55]
+Source2: [11, 55, 66, 77]
+55
+77
+
+
+(testing max)
+Values: [11, 44, 55, 77]
+Max: 77
+
+
+Values: [0]
+Max: 0
+
+
+(testing min)
+Values: [0]
+Min: 0
+
+
+Values: [-90, 55, 44, -9]
+Min: -90
+
+
+(testing peek)
+Values: [-90, 55, 44, -9]
+Peek: -90
+
+
+Values: [1, 2, 3]
+Peek: 1
+
+
+(testing remove)
+Values: [1, 2, 3]
+--remove 1--
+2
+3
+
+
+Values: [1, 2, 3]
+--remove 5--
+1
+2
+3
+
+(testing remove_front)
+Values: [1, 2, 3]
+--removefront--
+2
+3
+
+
+Values: [55, 44, 33, 22]
+--removefront--
+33
+44
+55
+
+
+(testing union)
+Union
+Source1: [77, 55]
+Source2: [11, 55, 66, 77]
+11
+55
+66
+77
+
+
+Union
+Source1: [1, 2, 3]
+Source2: [4, 5, 6]
+1
+2
+3
+4
+5
+6
+-------------------------------------------------------

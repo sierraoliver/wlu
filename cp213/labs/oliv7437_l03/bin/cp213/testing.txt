@@ -1,0 +1,39 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author: Sierra Oliver 
+ID: 169067437
+Email: oliv7437@mylaurier.ca
+Version: 
+-------------------------------------------------------
+"""
+New Student:
+Name:      Brown, David
+ID:        123456
+Birthdate: 1962-10-25
+----------------------------------------
+Name:      Brown, David
+ID:        123456
+Birthdate: 1962-10-25
+Test Getters
+Expected: 123456 Got: 123456
+Expected: Brown Got: Brown
+Expected: David Got: David
+Expected: 1962-10-25 Got: 1962-10-25
+----------------------------------------
+Test Setters
+Set to: 999999 Got: 999999
+Set to: Dave Got: Dave
+Set to: Dawson Got: Dawson
+Set to: 1998-01-23 Got: 1998-01-23
+Updated Student:
+Name:      Dave, Dawson
+ID:        999999
+Birthdate: 1998-01-23
+----------------------------------------
+Test compareTo
+Expected: 1 CompareTo Result: 1
+Expected: 1 CompareTo Result: 1
+

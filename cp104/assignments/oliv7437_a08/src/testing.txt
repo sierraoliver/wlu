@@ -1,0 +1,91 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2023-11-25"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Sentence: StopAndSmellTheRoses.
+Stop and smell the roses.
+
+
+Sentence: You'reWelcome
+You're welcome
+
+
+Sentence: ThereCanNeverBeTooManyCherriesOnAnIceCreamSundae.
+There can never be too many cherries on an ice cream sundae.
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Word: city
+cities
+
+
+Word: student
+students
+
+
+Word: play
+plays
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Word 1: running
+Word 2: jumping
+ing
+
+
+Word 1: abc
+Word 2: ABC
+
+
+
+Word 1: cities
+Word 2: parties
+ties
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+ISBN: 978-3-12148410--0
+False
+
+
+ISBN: 978-3-16-148410-0
+True
+
+
+ISBN: 789-3-16-19420-9
+False
+
+
+ISBN: 979-098764-93-3213453-9
+False
+
+
+ISBN: 9780-0453-098-8-0
+False
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+List: ['camel', 'leopard', 'dog', 'giraffe', 'elephant']
+True
+
+
+List: ['camel', 'cat', 'tiger', 'wolf', 'ferret']
+False
+
+
+List: ['camel', 'lions', 'sparrow', 'wolf', 'ferret', 'dog']
+False
+
+
+List: ['camel', 'lions', 'sparrow', 'wolf', 'ferret']
+True
+-------------------------------------------------------

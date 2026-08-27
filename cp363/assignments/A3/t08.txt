@@ -1,0 +1,11 @@
+SELECT m.memberSurname, m.memberForename,
+(SELECT COUNT(*) 
+ FROM memberBroad
+ WHERE memberBroadMemberId = m.memberId
+) AS broadCount
+FROM member AS m
+WHERE (SELECT COUNT(*) 
+       FROM memberBroad
+       WHERE memberBroadMemberId = m.memberId
+) >= 8
+ORDER BY m.memberSurname, m.memberForename

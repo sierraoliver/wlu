@@ -1,0 +1,33 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author: Sierra Oliver 
+ID: 169067437
+Email: oliv7437@mylaurier.ca
+Version: 
+-------------------------------------------------------
+Test scannerTest
+
+Enter an integer ('Quit' to stop): 4
+Enter an integer ('Quit' to stop): 3
+Enter an integer ('Quit' to stop): -1
+Enter an integer ('Quit' to stop): hello
+That is not an integer!
+Enter an integer ('Quit' to stop): Quit
+Total: 6
+
+java.lang.Exception: Please Enter a Positive Number!
+Test stringPrinter
+*****
+
+getMessage:
+Please Enter a Positive Number!
+
+toString:
+java.lang.Exception: Please Enter a Positive Number!
+
+printStackTrace:
+	at cp213.Main.stringPrinter(Main.java:88)
+	at cp213.Main.main(Main.java:32)

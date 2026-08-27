@@ -1,0 +1,13 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author: Sierra Oliver
+ID: 169067437   
+Email: oliv7437@mylaurier.ca
+Date: 2025-02-13
+-------------------------------------------------------
+Answers for Lab 4
+-------------------------------------------------------
+Task 2
+- yes can determine the number of bytes by getting the address difference between the start of the list and the end of the list (i.e subtracting _Data by Data to get the number of bytes)
+- or you can multiply the element counter by 4 since each value in the list is stored as a 4 byte word

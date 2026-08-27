@@ -1,0 +1,141 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2024-03-08"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+testing eq
+Value 1: ('A', '.-')
+Value 2: ('A', '.-')
+Equals: True
+
+testing le
+Value 1: ('A', '.-')
+Value 2: ('A', '.-')
+Result: True
+
+testing lt
+Value 1: ('A', '.-')
+Value 2: ('A', '.-')
+Result: False
+
+
+testing eq
+Value 1: ('A', '.-')
+Value 2: ('B', '-...')
+Equals: False
+
+testing le
+Value 1: ('A', '.-')
+Value 2: ('B', '-...')
+Result: True
+
+testing lt
+Value 1: ('A', '.-')
+Value 2: ('B', '-...')
+Result: True
+
+
+testing eq
+Value 1: ('C', '-.-.')
+Value 2: ('A', '.-')
+Equals: False
+
+testing le
+Value 1: ('C', '-.-.')
+Value 2: ('A', '.-')
+Result: False
+
+testing lt
+Value 1: ('C', '-.-.')
+Value 2: ('A', '.-')
+Result: False
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+testing eq
+Value 1: ('A', '.-')
+Value 2: ('A', '.-')
+Equals: True
+
+testing le
+Value 1: ('A', '.-')
+Value 2: ('A', '.-')
+Result: True
+
+testing lt
+Value 1: ('A', '.-')
+Value 2: ('A', '.-')
+Result: False
+
+
+testing eq
+Value 1: ('B', '-...')
+Value 2: ('A', '.-')
+Equals: False
+
+testing le
+Value 1: ('B', '-...')
+Value 2: ('A', '.-')
+Result: True
+
+testing lt
+Value 1: ('B', '-...')
+Value 2: ('A', '.-')
+Result: True
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Values: (('M', '--'), ('F', '..-.'), ('T', '-'))
+fill_letter_bst with values
+(M, --)
+(F, ..-.)
+(T, -)
+
+
+Values: (('M', '--'),)
+fill_letter_bst with values
+(M, --)
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Values: (('A', '.-'),)
+fill_code_bst with values
+(.-, A)
+
+
+Values: (('A', '.-'), ('T', '-'))
+fill_code_bst with values
+(.-, A)
+(-, T)
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Text: This is a string
+encode_morse for text
+- .... .. ... 
+.. ... 
+.- 
+... - .-. .. -. --. 
+
+
+Text: 123$
+encode_morse for text
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Morse: -.. .- ...- .. -..
+decode_morse for text
+DAVID
+
+Morse: ... --- ...
+decode_morse for text
+SOS
+-------------------------------------------------------

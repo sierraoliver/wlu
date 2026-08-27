@@ -1,0 +1,174 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2023-11-03"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Target Population: 10000
+Current Population: 1000
+Percent Rate Growth: 10
+Year to Reach 10000 is 25
+
+
+Target Population: 24982
+Current Population: 123
+Percent Rate Growth: 2.5
+Year to Reach 24982 is 216
+
+
+Target Population: 100
+Current Population: 1000
+Percent Rate Growth: 1
+Year to Reach 100 is 0
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+First positive value: 4.2
+Next positive value: 3.5
+Next positive value: 0
+Next positive value: 6.1
+Next positive value: -1
+
+Minimum: 0.00
+Maximum: 6.10
+Total: 13.80
+Average: 3.45
+
+
+First positive value: 7
+Next positive value: 29
+Next positive value: 1
+Next positive value: 32
+Next positive value: -1
+
+Minimum: 1.00
+Maximum: 32.00
+Total: 69.00
+Average: 17.25
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+
+-------------------------------------------------------
+t08
+-------------------------------------------------------
+Money currently available: 200
+Enter an expense (0 to quit): 150
+Enter another expense (0 to quit): 23
+Enter another expense (0 to quit): 12
+Enter another expense (0 to quit): 15
+Enter another expense (0 to quit): 37.50
+Enter another expense (0 to quit): 65
+Enter another expense (0 to quit): 0
+
+Total Expenses: 302.50
+Remaining Balance: -102.50
+Status: Deficit
+
+
+Money currently available: 1000
+Enter an expense (0 to quit): 190
+Enter another expense (0 to quit): 2.50
+Enter another expense (0 to quit): 5
+Enter another expense (0 to quit): 22.75
+Enter another expense (0 to quit): 607
+Enter another expense (0 to quit): 0
+
+Total Expenses: 827.25
+Remaining Balance: 172.75
+Status: Surplus
+
+
+Money currently available: 100
+Enter an expense (0 to quit): 25
+Enter another expense (0 to quit): 75
+Enter another expense (0 to quit): 0
+
+Total Expenses: 100.00
+Remaining Balance: 0.00
+Status: Balanced
+-------------------------------------------------------
+t09
+-------------------------------------------------------
+Enter low value: 0
+Enter high value: 100
+Enter a value between 0 and 100: 110
+Value entered is too high
+Enter a value between 0 and 100: -10
+Value entered is too low
+Enter a value between 0 and 100: 75
+
+75
+
+
+Enter low value: -45
+Enter high value: 90
+Enter a value between -45 and 90: -80
+Value entered is too low
+Enter a value between -45 and 90: 1000
+Value entered is too high
+Enter a value between -45 and 90: 0
+
+0
+-------------------------------------------------------
+t10
+-------------------------------------------------------
+Employee ID: 123
+Hourly wage rate: 45
+Hours worked: 46
+Net payment for employee 123: $2125.07
+
+Employee ID: 124
+Hourly wage rate: 30
+Hours worked: 46
+Net payment for employee 124: $1416.71
+
+Employee ID: 0
+
+Total: 3541.78
+Average: 1770.89
+
+
+Employee ID: 1
+Hourly wage rate: 72
+Hours worked: 40
+Net payment for employee 1: $2775.60
+
+Employee ID: 2
+Hourly wage rate: 30
+Hours worked: 28
+Net payment for employee 2: $809.55
+
+Employee ID: 3
+Hourly wage rate: 15
+Hours worked: 30
+Net payment for employee 3: $433.69
+
+Employee ID: 0
+
+Total: 4018.84
+Average: 1339.61
+-------------------------------------------------------

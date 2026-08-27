@@ -1,0 +1,10 @@
+SELECT 
+    (SELECT memberSurname FROM member WHERE memberId = mb.memberBroadMemberId) AS memberSurname,
+    (SELECT memberForename FROM member WHERE memberId = mb.memberBroadMemberId) AS memberForename,
+    (SELECT broadDesc FROM broad WHERE broadId = mb.memberBroadBroadId) AS broadDesc
+FROM memberBroad AS mb
+WHERE mb.memberBroadMemberId NOT IN (
+    SELECT pubMemberId
+    FROM pub
+)
+ORDER BY memberSurname, memberForename, broadDesc

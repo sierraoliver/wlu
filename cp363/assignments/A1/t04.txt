@@ -1,0 +1,1 @@
+SELECT pubTitle, pubAuthors FROM pub ORDER BY pubTitle

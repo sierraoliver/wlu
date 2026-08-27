@@ -1,0 +1,19 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author: Sierra Oliver
+ID: 169067437   
+Email: oliv7437@mylaurier.ca
+Date: 2025-02-06
+-------------------------------------------------------
+Answers for Lab 3
+-------------------------------------------------------
+
+Task 1
+- The value stored in r3 in signed decimal is -1 and in hexadecimal it is FFFFFFFF
+
+Task 2
+- The address of COUNTER is 1020
+
+Task 3
+- By looking at the LED device indicators, when changing the DELAY_TIME it adjusts how fast the LED's are rotated. When increasing the time, it moves slower, and by reducing the time, it moves faster. When adjusting the LED_BITS, it adjusts which individual LEDs are active. If the bit is a 1, the LED is lit and when it is 0 it is not. Thus, for the original bits 0x0F0F0F0F it has a group for 4 active LED's followed by 4 inactive bits repeatedly. 

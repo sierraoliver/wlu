@@ -1,0 +1,69 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2023-12-02"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Number of lines to print: 5
+
+Patel,Bina,820000095,54
+Xu,Weilin,820000046,68
+Santos,Jose,820000023,73
+Brown,David,820000000,92
+Pavlova,Danica,820000037,71
+
+
+Number of lines to print: 3
+
+Patel,Bina,820000095,54
+Xu,Weilin,820000046,68
+Santos,Jose,820000023,73
+
+
+Number of lines to print: 1
+
+Patel,Bina,820000095,54
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+[10, 20, 30, 40, 50, 60, 90, 80, 70, 11, 22, 13, 14, 14, 20]
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+50, 114, 15, 45, 15
+-------------------------------------------------------
+t04 (in wilde_numbered.txt file)
+-------------------------------------------------------
+[0] Quotes from Oscar Wilde - 1854 - 1900
+ 
+[1] 
+ 
+[2] "Always forgive your enemies; nothing annoys them so much."
+ 
+[3] 
+ 
+[4] "Be yourself; everyone else is already taken."
+ 
+[5] 
+ 
+[6] "To live is the rarest thing in the world. Most people exist, that is all."
+ 
+...(continues on till the last line)
+
+[138] "The mystery of love is greater than the mystery of death."
+ 
+[139]  
+ 
+[140] "It takes great deal of courage to see the world in all its tainted glory, and still to love it."
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+820000075, 820000000, 69.11111111111111
+-------------------------------------------------------

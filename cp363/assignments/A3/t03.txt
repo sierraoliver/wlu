@@ -1,0 +1,36 @@
+SELECT m.memberSurname, m.memberForename,
+(SELECT n.narrowDesc 
+FROM narrow AS n 
+WHERE n.narrowId IN(
+      SELECT memberNarrowNarrowId 
+      FROM memberNarrow 
+      WHERE m.memberId = memberNarrowMemberId) 
+AND n.narrowBroadId IN (
+      SELECT broadId 
+      FROM broad 
+      WHERE broadDesc = 'Environmental Security') 
+) AS narrowDesc
+FROM member AS m
+WHERE m.memberId IN (
+    SELECT memberNarrowMemberId 
+    FROM memberNarrow 
+    WHERE memberNarrowNarrowId IN (
+        SELECT narrowId 
+        FROM narrow 
+        WHERE narrowBroadId IN (
+            SELECT broadId 
+            FROM broad 
+            WHERE broadDesc = 'Environmental Security'
+        )
+    )
+)
+AND m.memberId NOT IN (
+    SELECT memberBroadMemberId 
+    FROM memberBroad 
+    WHERE memberBroadBroadId IN (
+        SELECT broadId 
+        FROM broad 
+        WHERE broadDesc = 'Environmental Security'
+    )
+)
+ORDER BY m.memberSurname, m.memberForename

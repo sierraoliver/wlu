@@ -1,0 +1,78 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author: Sierra Oliver
+ID: 169067437
+Email: oliv7437@mylaurier.ca 
+Date: 2025-01-30 
+-------------------------------------------------------
+Answers for Lab 2
+-------------------------------------------------------
+Task 1
+
+before fix:
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asmK8Z0NO.s.o work/asmK8Z0NO.s
+work/asmK8Z0NO.s: Assembler messages:
+work/asmK8Z0NO.s:21: Error: garbage following instruction -- `ldr r3,B:'
+work/asmK8Z0NO.s:23: Error: shift expression expected -- `add r2,r1,[r0]'
+Compile failed.
+
+after fix:
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asm4ksZZg.s.o work/asm4ksZZg.s
+Link: arm-eabi-ld  --script build_arm.ld -e _start -u _start -o work/asm4ksZZg.s.elf work/asm4ksZZg.s.o
+Compile succeeded.
+
+-changed ldr instructions for loading A and B to =A and =B
+-removed brackets around register in add instruction
+
+final register states:
+r0 = 4
+r1 = 8
+r2 = c
+r3 = 1038
+
+Task 2
+
+before fix:
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asmGBDyfB.s.o work/asmGBDyfB.s
+work/asmGBDyfB.s: Assembler messages:
+work/asmGBDyfB.s:26: Error: internal_relocation (type: OFFSET_IMM) not fixed up
+work/asmGBDyfB.s:30: Error: internal_relocation (type: OFFSET_IMM) not fixed up
+Compile failed.
+
+after fix:
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asmmnTv7J.s.o work/asmmnTv7J.s
+Link: arm-eabi-ld  --script build_arm.ld -e _start -u _start -o work/asmmnTv7J.s.elf work/asmmnTv7J.s.o
+Compile succeeded.
+
+-corrected spelling to =Diff
+-added brackets in the str instructions so that it stores the contents to the register address
+
+final register states:
+r0 = 4
+r1 = 8
+r2 = fffffffc
+r3 = 104c
+
+Task 3
+
+before fix:
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asm4lTLYU.s.o work/asm4lTLYU.s
+work/asm4lTLYU.s: Assembler messages:
+work/asm4lTLYU.s:43: Error: attempt to store non-zero value in section `.bss'
+Compile failed.
+
+after fix:
+Assemble: arm-eabi-as -mfloat-abi=softfp -march=armv7-a -mcpu=cortex-a9 -mfpu=neon-fp16 --gdwarf2 -o work/asm88uWBG.s.o work/asm88uWBG.s
+Link: arm-eabi-ld  --script build_arm.ld -e _start -u _start -o work/asm88uWBG.s.elf work/asm88uWBG.s.o
+Compile succeeded.
+
+-changed .word for Vec2 into .space
+-changed the #2 for the add instructions to #4 so that it points to the next memory location
+-changed registers for one of the add instructions to register r0 to not duplicate the add instruction
+-changed registers for the final str instruction to not store the data in the same address
+
+final register states:
+r0 = 1048
+r1 = 1058
+r2 = 3

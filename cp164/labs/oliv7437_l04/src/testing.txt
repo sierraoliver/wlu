@@ -1,0 +1,195 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2024-01-26"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Array: [1,2,3]
+Append: 90
+Appended: 90
+Insert: 4
+Index: 0
+Inserted Number: 4
+Removed: 3
+4
+1
+2
+90
+
+
+Array: []
+Append: 1
+Appended: 1
+Insert: 90
+Index: 0
+Inserted Number: 90
+Removed: 1
+90
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Max: 44
+Min: 11
+Contains 11: True
+Index of 11: 0
+Find 22: 22
+
+Max: 1000
+Min: 2
+Contains 45: True
+Index of 90: 1
+Find 2: 2
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Array: [22, 33, 11, 55, 44]
+source[-1] = 99
+22
+33
+11
+55
+99
+Value at source[-1]: 99
+
+
+Array: [22, 33, 11, 55, 44]
+source[-4] = 4
+22
+4
+11
+55
+44
+Value at source[-4]: 4
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Original Array: [11, 22, 33, 44]
+Array to List
+11
+22
+33
+44
+List to Array
+[11, 22, 33, 44]
+
+Original Array: []
+Array to List
+List to Array
+[]
+
+
+Original Array: [1, 2, 3, 4, 5, 6]
+Array to List
+1
+2
+3
+4
+5
+6
+List to Array
+[1, 2, 3, 4, 5, 6]
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+(using first 2 element of foods.txt)
+Source is not empty
+Count of: 
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+=1
+Max:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Min:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Inserted:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+at index: 1
+Check expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Append:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Check got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Index: 3
+Index of:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+=0
+Find expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Find got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Remove expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Remove got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+-------------------------------------------------------

@@ -1,0 +1,229 @@
+"""
+-------------------------------------------------------
+Lab/Assignment Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+__updated__ = "2024-01-16"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+[22, 33, 11, 55, 44]
+Is Empty: False
+Peek: 44
+Push 99, Peek: 99
+Remove:99, Peek: 44
+
+
+[99]
+Is Empty: False
+Peek: 99
+Push 99, Peek: 99
+Remove:99, Peek: 99
+ 
+[1, 2, 3]
+Is Empty: False
+Peek: 3
+Push 22, Peek: 22
+Remove:22, Peek: 3
+
+
+[]
+Is Empty: True
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+List: [11, 22, 33, 44]
+From Stack:
+11
+22
+33
+44
+
+
+List: []
+From Stack:
+
+
+List: [99]
+From Stack:
+99
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Stack:[5, 4, 3, 2, 1]
+Array: [5, 4, 3, 2, 1]
+
+
+Stack:[88, 99]
+Array: [88, 99]
+
+
+Stack:[]
+Array: []
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+(stack is made from [1,2,3])
+Source is not empty
+Pushed:
+1
+Peek expects:
+1
+Got:
+1
+
+Pop expects:
+1
+Got:
+1
+
+Pop expects:
+1
+Got:
+1
+
+Pop expects:
+2
+Got:
+2
+
+Pop expects:
+3
+Got:
+3
+
+Empty expects: True
+Empty got: True
+
+
+(stack is [])
+Source is empty
+Empty expects: True
+Empty got: True
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+(testing first 2 elements of foods.txt)
+Source is not empty
+Pushed:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Peek expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+
+Pop expects:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Got:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+
+Empty expects: True
+Empty got: True
+
+
+(testing empty list)
+Source is empty
+Empty expects: True
+Empty got: True
+
+
+(testing with first element of foods.txt)
+Source is not empty
+Pushed:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Peek expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+
+Pop expects:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Got:
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+
+Empty expects: True
+Empty got: True
+-------------------------------------------------------

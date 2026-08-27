@@ -1,0 +1,153 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Sierra Oliver
+ID:      169067437
+Email:   oliv7437@mylaurier.ca
+Version: 2023-10-20
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Mass of object (kg): 5
+The weight of object is 49.0 and the weight is average
+
+
+Mass of object (kg): 1250
+The weight of object is 12250.0 and the weight is heavy
+
+
+Mass of object (kg): 0.8
+The weight of object is 7.8 and the weight is light
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter target value: 4
+Enter value one: 5
+Enter value two: 3
+The closer value to 4.0 is 5.0
+
+
+Enter target value: 5.2
+Enter value one: 3.4
+Enter value two: 9.8
+The closer value to 5.2 is 3.4
+
+
+Enter target value: 10
+Enter value one: 11.1
+Enter value two: 8.8
+The closer value to 10.0 is 11.1
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+
+-------------------------------------------------------
+t08
+-------------------------------------------------------
+
+-------------------------------------------------------
+t09
+-------------------------------------------------------
+Enter wind speed (km/hr): 20
+That wind speed is: Breeze
+
+
+Enter wind speed (km/hr): 39
+That wind speed is: Strong Wind
+
+
+Enter wind speed (km/hr): 88
+That wind speed is: Gale Winds
+
+
+Enter wind speed (km/hr): 95
+That wind speed is: Whole Gale
+
+
+Enter wind speed (km/hr): 300
+That wind speed is: Hurricane
+-------------------------------------------------------
+t10
+-------------------------------------------------------
+
+-------------------------------------------------------
+t11
+-------------------------------------------------------
+
+-------------------------------------------------------
+t12
+-------------------------------------------------------
+
+-------------------------------------------------------
+t13
+-------------------------------------------------------
+Years employed: 6
+Salary: 45000
+This employee is qualified for a loan
+
+
+Years employed: 2
+This employee is not qualified for a loan
+
+
+Years employed: 5
+Salary: 20000
+This employee is not qualified for a loan
+-------------------------------------------------------
+t14
+-------------------------------------------------------
+
+-------------------------------------------------------
+t15
+-------------------------------------------------------
+Order | B - burger or W - wings: B
+Make it a combo? (Y/N): N
+Price of your food is $6.00
+
+
+Order | B - burger or W - wings: W
+Make it a combo? (Y/N): N
+Price of your food is $8.00
+
+
+Order | B - burger or W - wings: B
+Make it a combo? (Y/N): Y
+Add | F - fries or S - salad: F
+Price of your food is $7.50
+
+Order | B - burger or W - wings: B
+Make it a combo? (Y/N): Y
+Add | F - fries or S - salad: S
+Price of your food is $8.00
+
+
+Order | B - burger or W - wings: W
+Make it a combo? (Y/N): Y
+Add | F - fries or S - salad: F
+Price of your food is $9.50
+
+
+Order | B - burger or W - wings: W
+Make it a combo? (Y/N): Y
+Add | F - fries or S - salad: S
+Price of your food is $10.00
+-------------------------------------------------------
