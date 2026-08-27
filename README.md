@@ -7,7 +7,10 @@ This repository contains coursework from several areas of computer science, incl
 ## Courses
 
 | Course    | Title                                       | Topics                                                                                                  |
-| --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------
+- |
+| **CP104** | Intro to Programming                        | Basic coding concepts - variables, functions, loops, arrays, string manipulation, input, formatting   
+  |
 | **CP164** | Data Structures I                           | Data structures, recursion, searching, sorting, stacks, queues, heaps, and algorithm analysis           |
 | **CP212** | Windows Application Programming             | Visual Basic for Applications (VBA), automation, event-driven programming, and user interfaces          |
 | **CP213** | Introduction to Object-Oriented Programming | Java, object-oriented programming, inheritance, polymorphism, event-driven programming, and concurrency |
